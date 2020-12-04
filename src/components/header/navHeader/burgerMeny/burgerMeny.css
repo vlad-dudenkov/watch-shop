@@ -1,0 +1,14 @@
+.burger-meny-container{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+@media(max-width:670px){
+    .nav-header-wraper{
+       justify-content: center;
+    }
+  .novigation-container{
+      display: none;
+  }  
+
+}
