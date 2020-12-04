@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap');
+.nav-header-wraper{
+    display: flex;
+}
+.logotip-container{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 36px; 
+}

@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import { NewApp } from './components/NewApp';
-import { useState } from 'react';
+import { HeaderContainer } from './components/header/HeaderContainer';
+
 
 function App() {
   return (
     <div className="App">
-     hello
+      <HeaderContainer/>
+     
     </div>
   );
 }

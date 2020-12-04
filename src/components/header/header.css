@@ -1,0 +1,51 @@
+
+/* phone Container */
+.header-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 44px;
+    flex-wrap: wrap;
+}
+.phone-content{
+    display: flex;
+}
+.phone-content__row{
+    display: flex;
+    font-size: 10px;
+    font-family:sans-serif;
+    color: #969696;
+}
+.phone-content__img{
+    padding-right: 16px;
+    width: 13,36px;
+    height: 13,33px;
+}
+/* login Container */
+.login{
+    display: flex;
+}
+.login-img{
+    position: relative;
+    padding-right: 12px;
+}
+.login-img__img2{
+    position: absolute;
+    top:5.5px;
+    left:-5px;
+}
+.login-registration-container{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+   
+}
+.login-registration-container__row{
+    padding: 0px 5px;
+    color: #969696;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.login-registration-container__row:hover{
+    color: #4e4949;
+}
