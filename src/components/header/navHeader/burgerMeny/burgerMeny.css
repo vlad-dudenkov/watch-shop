@@ -10,5 +10,49 @@
   .novigation-container{
       display: none;
   }  
+  .novigation-container__active{
+      position: absolute;
+      top:100%;
+      display: flex;
+      flex-direction: column;
+      align-items: inherit;
+      justify-content: center;
+      background-color: #706d6da6;
+      width: 100%;
+
+  }
+  .novigation-section{
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .novigation-section__nav{
+      padding-top: 10%;
+      
+  }
+  .nav-basket-container{
+      /* padding-top: 2%; */
+      position: absolute;
+      top:-40%;
+      right:3%;
+  }
+  .nav-basket-container::after,
+  .nav-basket-container::before{
+      top: 105%;
+  }
+  /* .nav-search-container{
+      position: absolute;
+      top: 0;
+      right: 10%;
+  } */
+
+  .nav-search-container{
+      padding-top:2% ;
+      padding-bottom: 2%;
+  }
+  .novigation-section__nav:hover {
+    color:#FFFFFF;
+    background: #1f1f1f00;
+}
 
 }

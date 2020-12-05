@@ -7,7 +7,14 @@ import { BurgerMeny } from "./burgerMeny/BurgerMeny"
 
 export const NavHeader = (props) => {
     let [burgerClick, setBurgerClick]= useState("novigation-container")
-    return (
+
+    let containerClick = (e) => {
+        let targetClass=e.target.className
+        if(targetClass!="novigation-container"||"novigation-container__active"){
+            setBurgerClick("novigation-container")
+        }
+    }
+        return (
         <div className="nav-header-wraper">
             <div className="logotip-container"> PORTEN </div>
             <div className="burger-menu-container">
@@ -16,7 +23,7 @@ export const NavHeader = (props) => {
                 burgerClick={burgerClick}
                 />
             </div>
-            <div className={burgerClick}>
+            <div className={burgerClick} onClick={(e)=> containerClick(e)}>
                 <div className="novigation-section">
                     <NavLink className="novigation-section__nav"
                         to="/liked"> ПОНРАВИЛАСЬ </NavLink>
