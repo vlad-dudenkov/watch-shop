@@ -1,0 +1,100 @@
+.section2-container{
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+.collection-of-the-season-2020-2021-container{
+    display: flex;
+    flex:1.2;
+}
+.new-collection-container{
+    display: flex;
+    flex: 0.8;
+    background:url(./../../../img/Rectangle8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.new-collection-container__text{
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50%;
+   line-height: 250%;
+  }
+.new-collection-container__text::after{
+    content: "";
+    width: 40%;
+    height: 1%;
+    border-top: 1px solid wheat;
+}
+.new-collection-container__nav-link-container{
+    margin-top: 5%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 4% 2% 4%;
+    border: 1px solid #ffffff;
+}
+.new-collection-container__nav-link-container:hover{
+background-color: #ffffff42;
+}
+.new-collection-container__Catalog{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3vw;
+}
+.collection-of-the-season-2020-2021-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.collection-of-the-season-2020-2021-container__text{
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    font-weight: bold;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 300%;
+    font-family: sans-serif;
+}
+.collection-of-the-season-2020-2021-container__text::after{
+    content: "";
+    width: 40%;
+    height: 1%;
+    border-top: 1px solid wheat;
+}
+.clock-box{
+    display: flex;
+    justify-content:space-evenly;
+   
+    
+   
+}
+.clock-container{
+   width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.clock-container__img-container{
+    background-color: #191B1C;
+}
+.clock-container__img{
+max-width: 100%;
+background-position: center;
+
+}
+
+

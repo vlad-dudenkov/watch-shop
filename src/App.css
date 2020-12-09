@@ -8,8 +8,7 @@ body{
   width: 100vw;
   height: 100vh;
   background-color: black;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  overflow: auto;
   color: aliceblue;
 
 }
