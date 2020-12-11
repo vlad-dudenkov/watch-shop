@@ -1,7 +1,15 @@
 .section2-container{
     width: 100%;
-    height: 75%;
+    height: 75vh;
     display: flex;
+}
+@media(max-width: 768px){
+    .section2-container{
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+    }
 }
 .collection-of-the-season-2020-2021-container{
     display: flex;
@@ -19,7 +27,7 @@
 }
 .new-collection-container__text{
     text-transform: uppercase;
-    font-size: 1.8vw;
+    font-size: 24px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -49,7 +57,7 @@ background-color: #ffffff42;
 .new-collection-container__Catalog{
     text-decoration: none;
     color: #ffffff;
-    font-size: 1.3vw;
+    font-size: 18px;
 }
 .collection-of-the-season-2020-2021-container{
     display: flex;
@@ -60,7 +68,7 @@ background-color: #ffffff42;
 
 .collection-of-the-season-2020-2021-container__text{
     text-transform: uppercase;
-    font-size: 1.8vw;
+    font-size: 24px;
     font-weight: bold;
     height: 10%;
     display: flex;

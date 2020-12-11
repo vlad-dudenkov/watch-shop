@@ -3,12 +3,17 @@ body{
   padding: 0;
   
 }
+::-webkit-scrollbar { 
+  width: 0px;  
+  background: transparent;  
+}
 
 .App {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background-color: black;
   overflow: auto;
   color: aliceblue;
+
 
 }
